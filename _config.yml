@@ -1,0 +1,43 @@
+name: "Brian Schrader"
+description: ""
+credits: "Powered by <a href=\"http://snippets.today/\">Snippets.today</a> and <a href=\"http://jekyllrb.com/\">Jekyll</a>."
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 20
+baseurl: "/"
+domain_name: "http://sonicrocketman.snippets.xyz"
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url: "http://sonicrocketman.snippets.xyz"
+author: "Brian Schrader"
+username: "sonicrocketman"
+gravatar_hash: "11b074a636e00292c98e3e60f7e16595"
+
+#permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
